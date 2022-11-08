@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="E2D.Selenium.HomePage">
+        <methods>
+          <include name="chomeclose"/>
+          <include name="chomeopen"/>
+          <include name="basepageNavigation" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- E2D.Selenium.HomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

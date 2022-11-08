@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="E2D.Selenium.Listeners"/>
+
+</listeners>
+  <test name="Validating Navigation">
+    <classes>
+      <class name="E2D.Selenium.Validatenavigationbar"/>
+       </classes>
+  </test> <!-- Test -->
+      
+      <test name="validating home page">
+    <classes>
+      <class name="E2D.Selenium.HomePage"/>
+      <methods>
+      <include name="validatebar"/>
+      <exclude name="validatebar"/>
+      </methods>
+      
+      </classes>
+  </test> <!-- Test -->
+  
+  <test name="Validating Header">
+    <classes>
+  <class name="E2D.Selenium.ValidateHeader"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

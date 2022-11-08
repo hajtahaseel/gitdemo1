@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29140" started-at="2021-02-03T13:52:04Z" finished-at="2021-02-03T13:52:33Z">
+    <groups>
+    </groups>
+    <test name="Validating Navigation" duration-ms="9439" started-at="2021-02-03T13:52:04Z" finished-at="2021-02-03T13:52:13Z">
+      <class name="E2D.Selenium.Validatenavigationbar">
+        <test-method status="PASS" signature="chomeopen()[pri:0, instance:E2D.Selenium.Validatenavigationbar@12d3a4e9]" name="chomeopen" is-config="true" duration-ms="8623" started-at="2021-02-03T19:22:04Z" finished-at="2021-02-03T19:22:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chomeopen -->
+        <test-method status="PASS" signature="validatebar()[pri:0, instance:E2D.Selenium.Validatenavigationbar@12d3a4e9]" name="validatebar" duration-ms="120" started-at="2021-02-03T19:22:12Z" finished-at="2021-02-03T19:22:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatebar -->
+        <test-method status="PASS" signature="chomeclose()[pri:0, instance:E2D.Selenium.Validatenavigationbar@12d3a4e9]" name="chomeclose" is-config="true" duration-ms="673" started-at="2021-02-03T19:22:13Z" finished-at="2021-02-03T19:22:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chomeclose -->
+      </class> <!-- E2D.Selenium.Validatenavigationbar -->
+    </test> <!-- Validating Navigation -->
+    <test name="validating home page" duration-ms="11713" started-at="2021-02-03T13:52:13Z" finished-at="2021-02-03T13:52:25Z">
+      <class name="E2D.Selenium.HomePage">
+        <test-method status="PASS" signature="chomeopen()[pri:0, instance:E2D.Selenium.HomePage@48524010]" name="chomeopen" is-config="true" duration-ms="3083" started-at="2021-02-03T19:22:13Z" finished-at="2021-02-03T19:22:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chomeopen -->
+        <test-method status="PASS" signature="basepageNavigation(java.lang.String, java.lang.String)[pri:0, instance:E2D.Selenium.HomePage@48524010]" name="basepageNavigation" duration-ms="5509" started-at="2021-02-03T19:22:16Z" data-provider="getdata" finished-at="2021-02-03T19:22:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[haj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method status="PASS" signature="basepageNavigation(java.lang.String, java.lang.String)[pri:0, instance:E2D.Selenium.HomePage@48524010]" name="basepageNavigation" duration-ms="2447" started-at="2021-02-03T19:22:22Z" data-provider="getdata" finished-at="2021-02-03T19:22:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[haj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method status="PASS" signature="chomeclose()[pri:0, instance:E2D.Selenium.HomePage@48524010]" name="chomeclose" is-config="true" duration-ms="666" started-at="2021-02-03T19:22:24Z" finished-at="2021-02-03T19:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chomeclose -->
+      </class> <!-- E2D.Selenium.HomePage -->
+    </test> <!-- validating home page -->
+    <test name="Validating Header" duration-ms="7964" started-at="2021-02-03T13:52:25Z" finished-at="2021-02-03T13:52:33Z">
+      <class name="E2D.Selenium.ValidateHeader">
+        <test-method status="PASS" signature="chomeopen()[pri:0, instance:E2D.Selenium.ValidateHeader@5906ebcb]" name="chomeopen" is-config="true" duration-ms="7226" started-at="2021-02-03T19:22:25Z" finished-at="2021-02-03T19:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chomeopen -->
+        <test-method status="PASS" signature="Validate()[pri:0, instance:E2D.Selenium.ValidateHeader@5906ebcb]" name="Validate" duration-ms="39" started-at="2021-02-03T19:22:32Z" finished-at="2021-02-03T19:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate -->
+        <test-method status="PASS" signature="chomeclose()[pri:0, instance:E2D.Selenium.ValidateHeader@5906ebcb]" name="chomeclose" is-config="true" duration-ms="698" started-at="2021-02-03T19:22:32Z" finished-at="2021-02-03T19:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chomeclose -->
+      </class> <!-- E2D.Selenium.ValidateHeader -->
+    </test> <!-- Validating Header -->
+  </suite> <!-- Suite -->
+</testng-results>
